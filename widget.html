@@ -1,0 +1,29 @@
+<!--@author    - Nisham P  www.fb.com/nisham.mahsin-->
+<form>
+	<div id="calculator" ng-controller="calculatorCtrl">
+			<div id="total">
+			{{result | textOrNumber}}
+			</div>
+			<div id="operators">
+				 <a href="" ng-click="add()">+</a>
+				 <a href="" ng-click="sub()">-</a>
+				 <a href="" ng-click="mult()">*</a>
+				 <a href="" ng-click="div()">/</a>
+				 <a href="" ng-click="eqTo()">=</a>
+			</div>
+			<div id="numbers">
+				 <a href="" ng-click="passNum(1)">1</a>
+				 <a href="" ng-click="passNum(2)">2</a>
+				 <a href="" ng-click="passNum(3)">3</a>
+				 <a href="" ng-click="passNum(4)">4</a>
+				 <a href="" ng-click="passNum(5)">5</a>
+				 <a href="" ng-click="passNum(6)">6</a>
+				 <a href="" ng-click="passNum(7)">7</a>
+				 <a href="" ng-click="passNum(8)">8</a>
+				 <a href="" ng-click="passNum(9)">9</a>
+				 <a href="" ng-click="clear()">C</a>
+				 <a href="" ng-click="passNum(0)">0</a>
+				 
+			</div>
+</div>
+</form>
